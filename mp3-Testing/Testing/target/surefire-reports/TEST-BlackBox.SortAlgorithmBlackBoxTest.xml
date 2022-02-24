@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="BlackBox.SortAlgorithmBlackBoxTest" time="0.264" tests="119" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\user\Desktop\QQIN UIUC CS\CS427 SE\Testing\Testing\target\test-classes;C:\Users\user\Desktop\QQIN UIUC CS\CS427 SE\Testing\Testing\target\classes;C:\Users\user\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire3427982153496413030\surefirebooter197156738040471590.jar C:\Users\user\AppData\Local\Temp\surefire3427982153496413030 2021-10-24T12-02-14_464-jvmRun1 surefire15656059258254698521tmp surefire_0790710037722476933tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\user\Desktop\QQIN UIUC CS\CS427 SE\Testing\Testing\target\test-classes;C:\Users\user\Desktop\QQIN UIUC CS\CS427 SE\Testing\Testing\target\classes;C:\Users\user\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-09-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\user\Desktop\QQIN UIUC CS\CS427 SE\Testing\Testing"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire3427982153496413030\surefirebooter197156738040471590.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17+35-LTS-2724"/>
+    <property name="user.name" value="user"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.2.2"/>
+    <property name="java.version" value="17"/>
+    <property name="user.dir" value="C:\Users\user\Desktop\QQIN UIUC CS\CS427 SE\Testing\Testing"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Git\cmd;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-17\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17+35-LTS-2724"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="nullTest[0]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="allDuplicateTest[0]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.016"/>
+  <testcase name="emptyTest[0]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="dummyTest[0]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="oneTest[0]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="duplicateTest[0]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="testSort[0]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findPrevTest[0]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="extremeTest2[0]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="emptyTest2[0]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="negativeTest[0]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="extremeTest[0]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findNextTest2[0]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findNextTest[0]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="newTest[0]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="descendingTest[0]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.094"/>
+  <testcase name="findJustNextTest[0]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="nullTest[1]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="allDuplicateTest[1]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="emptyTest[1]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="dummyTest[1]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="oneTest[1]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="duplicateTest[1]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="testSort[1]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findPrevTest[1]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="extremeTest2[1]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="emptyTest2[1]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="negativeTest[1]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="extremeTest[1]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findNextTest2[1]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findNextTest[1]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="newTest[1]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="descendingTest[1]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findJustNextTest[1]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="nullTest[2]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="allDuplicateTest[2]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="emptyTest[2]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="dummyTest[2]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="oneTest[2]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.015"/>
+  <testcase name="duplicateTest[2]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="testSort[2]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findPrevTest[2]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.001"/>
+  <testcase name="extremeTest2[2]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="emptyTest2[2]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="negativeTest[2]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.001"/>
+  <testcase name="extremeTest[2]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.006"/>
+  <testcase name="findNextTest2[2]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findNextTest[2]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.009"/>
+  <testcase name="newTest[2]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="descendingTest[2]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.001"/>
+  <testcase name="findJustNextTest[2]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.001"/>
+  <testcase name="nullTest[3]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="allDuplicateTest[3]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.007"/>
+  <testcase name="emptyTest[3]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.001"/>
+  <testcase name="dummyTest[3]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.001"/>
+  <testcase name="oneTest[3]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="duplicateTest[3]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="testSort[3]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.001"/>
+  <testcase name="findPrevTest[3]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.009"/>
+  <testcase name="extremeTest2[3]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.001"/>
+  <testcase name="emptyTest2[3]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.002"/>
+  <testcase name="negativeTest[3]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="extremeTest[3]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findNextTest2[3]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findNextTest[3]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.007"/>
+  <testcase name="newTest[3]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="descendingTest[3]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findJustNextTest[3]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="nullTest[4]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="allDuplicateTest[4]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="emptyTest[4]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.007"/>
+  <testcase name="dummyTest[4]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="oneTest[4]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="duplicateTest[4]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="testSort[4]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findPrevTest[4]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="extremeTest2[4]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="emptyTest2[4]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="negativeTest[4]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="extremeTest[4]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.002"/>
+  <testcase name="findNextTest2[4]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findNextTest[4]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="newTest[4]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="descendingTest[4]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findJustNextTest[4]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="nullTest[5]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="allDuplicateTest[5]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="emptyTest[5]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="dummyTest[5]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.001"/>
+  <testcase name="oneTest[5]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="duplicateTest[5]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="testSort[5]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findPrevTest[5]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="extremeTest2[5]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="emptyTest2[5]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="negativeTest[5]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="extremeTest[5]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findNextTest2[5]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findNextTest[5]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="newTest[5]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="descendingTest[5]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findJustNextTest[5]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="nullTest[6]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="allDuplicateTest[6]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="emptyTest[6]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="dummyTest[6]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="oneTest[6]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="duplicateTest[6]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.006"/>
+  <testcase name="testSort[6]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findPrevTest[6]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="extremeTest2[6]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="emptyTest2[6]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="negativeTest[6]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="extremeTest[6]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findNextTest2[6]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findNextTest[6]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0.003"/>
+  <testcase name="newTest[6]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="descendingTest[6]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+  <testcase name="findJustNextTest[6]" classname="BlackBox.SortAlgorithmBlackBoxTest" time="0"/>
+</testsuite>

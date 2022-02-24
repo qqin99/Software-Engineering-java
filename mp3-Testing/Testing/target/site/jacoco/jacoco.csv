@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Testing,Utils,LruCacheMethod,0,21,0,0,0,4,0,1,0,1
+Testing,Utils,SortUtils,42,8,0,2,13,1,5,2,5,1
+Testing,Utils,TreeNode,6,82,7,15,3,14,7,8,0,4
+Testing,BlackBox,LruCacheImpl,0,138,0,6,0,32,0,8,0,5
+Testing,BlackBox,LruCacheImpl.LinkedNode,0,18,0,0,0,6,0,1,0,1
+Testing,BlackBox,CycleSort,0,127,2,22,0,28,2,13,0,3
+Testing,WhiteBox,BinaryTreeSerializerImpl,0,219,0,28,0,45,0,20,0,6
+Testing,WhiteBox,IpValidatorImpl,0,234,0,64,0,37,0,38,0,6
